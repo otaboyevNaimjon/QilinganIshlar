@@ -1,0 +1,42 @@
+[
+    {
+        "img": "./images/i (1).webp",
+        "name": "Dr. Leslie Alexsander",
+        "profession": "Surgery"
+    },
+    {
+        "img": "./images/i (2).webp",
+        "name": "Dr. Robert Fox",
+        "profession": "Paramedic"
+    },
+    {
+        "img": "./images/i (3).webp",
+        "name": "Dr. Alexsandra Emma",
+        "profession": "Psychologist"
+    },
+    {
+        "img": "./images/i (4).webp",
+        "name": "Dr. Ester Howard",
+        "profession": "Parademic"
+    },
+    {
+        "img": "./images/i (5).webp",
+        "name": "Dr. Albert Flores",
+        "profession": "Dentist"
+    },
+    {
+        "img": "./images/i (6).webp",
+        "name": "Dr. Emma Sophie",
+        "profession": "Pharmacist"
+    },
+    {
+        "img": "./images/i (7).webp",
+        "name": "Dr. Kathryn Murphy",
+        "profession": "ENT doctor"
+    },
+    {
+        "img": "./images/i.webp",
+        "name": "Dr. Jenny Wilson",
+        "profession": "Family doctor"
+    }
+]

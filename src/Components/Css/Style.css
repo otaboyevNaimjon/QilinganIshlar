@@ -1,0 +1,844 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: darkblue;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.nav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li {
+    font-size: 16px;
+    transition: 0.4s;
+    width: 90px;
+    text-align: center;
+    padding: 6px;
+    color: pink;
+}
+
+.li:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.h1 {
+    color: darkblue;
+    /* text-align: center; */
+    margin-left: 30px;
+    margin-top: px;
+}
+
+.img {
+    width: 600px;
+    margin-left: -50px;
+    border-radius: 15px;
+}
+
+.div {
+    background-color: darkviolet;
+    width: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    width: 87%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardmain {
+    border: 0.5px solid rgb(0, 70, 0);
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 0 5px rgb(4, 31, 4);
+    width: 300px;
+    height: 415px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.cardmain:hover {
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 0 8px rgb(4, 31, 4);
+    transition: 0.2s;
+}
+
+.cardimg {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5px black;
+    filter: brightness(90%);
+    margin-top: 10px;
+    margin-left: 9px;
+    transition: 0.5s;
+}
+
+.cardimg:hover {
+    transform: scale(1.067);
+    filter: brightness(100%);
+    border-radius: 19px;
+    margin-bottom: 2px;
+    box-shadow: 0 0.5px 5px black;
+    transition: 0.6s;
+}
+
+.cardh2 {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #085207 0%,
+            #086e62 25%,
+            #0d3463 50%,
+            #085307 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-shadow: 0 0 5px rgba(0, 128, 0, 0.31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    text-align: center;
+    /* margin-left: 15px; */
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.cardh3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+
+.searchbtn {
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 23px;
+    border: 1px solid rgb(8, 57, 8);
+}
+
+.searchbtn:hover {
+    box-shadow: 0 0 4px blue;
+}
+
+.drsearch {
+    margin-left: 10px;
+    width: 60%;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 14px;
+    padding-right: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(8, 57, 8);
+    outline: none;
+}
+
+.toph1 {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #043a03 0%,
+            #054b43 25%,
+            #043a03 50%,
+            #054b43 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-shadow: 0 0 5px rgba(0, 128, 0, 0.31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.main_div {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.logo_div {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dives {
+    width: 150px;
+    transition: 0.4s;
+    height: 110px;
+}
+
+.dives:hover {
+    color: white;
+    background-color: darkblue;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.text_wecane {
+    font-size: 30px;
+    color: darkblue;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-top: 100px;
+}
+
+.lorem {
+    color: white;
+}
+
+.link {
+    color: white;
+    margin-top: -30px;
+}
+
+.contact {
+    color: white;
+    margin-top: -30px;
+}
+
+.email {
+    color: white;
+    margin-top: -30px;
+}
+
+.p {
+    color: white;
+    margin-top: 15px;
+}
+
+.in {
+    padding: 0 20px;
+    height: 40px;
+    color: gray;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+    border: 0;
+    margin: 10px 0;
+}
+
+.our {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #097a07 0%,
+            #086e62 25%,
+            #0c4891 50%,
+            #0a8e08 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-shadow: 0 0 5px rgba(0, 128, 0, 0.31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.kards {
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.kard {
+    width: 250px;
+    height: 420px;
+    border-radius: 25px;
+    box-shadow: 0 0 12px rgba(0, 74, 0, 0.549);
+    margin: 20px;
+}
+
+.kardimg {
+    width: 190px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.kardimgg {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.kardimg:hover {
+    transition: 0.7s;
+    transform: scale(1.168);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 74, 0, 0.549);
+}
+
+.kardimgg:hover {
+    transition: 0.7s;
+    transform: scale(1.168);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 74, 0, 0.549);
+}
+
+.kardh2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #03bd00 0%,
+            #086e62 25%,
+            #0458bf 50%,
+            #0a8e08 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-shadow: 0 0 5px rgba(0, 128, 0, 0.31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.Right_side_Foydalanuvchilar {
+    position: absolute;
+    width: 1163px;
+    height: 1315px;
+    left: 277px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.right_side {
+
+    position: absolute;
+    width: 1163px;
+    height: 1315px;
+    left: 277px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.Search {
+
+    height: 45px;
+    width: 614px;
+    margin-left: 118px;
+    margin-top: 47px;
+    border-radius: 25px;
+
+    background: rgba(234, 240, 255, 1);
+    ;
+    border: none;
+}
+
+.Search2 {
+    position: absolute;
+    top: 63px;
+    left: 694px;
+    border-radius: 0px;
+
+}
+
+.Bell {
+    position: absolute;
+    height: 16.923076629638672px;
+    width: 16.410240173339844px;
+    left: 757px;
+    top: 59px;
+    border-radius: 0px;
+
+}
+
+.Profile {
+    position: absolute;
+    left: 804px;
+    top: 63px;
+
+}
+
+.Satitstik {
+    position: absolute;
+
+    height: 106px;
+    width: 1034px;
+    left: 34px;
+    top: 296px;
+    border-radius: 40px;
+    border: 1px solid rgba(211, 224, 255, 1)
+}
+
+.Number {
+    position: absolute;
+    height: 95px;
+    width: auto;
+    left: 420px;
+    top: 9px;
+
+}
+
+.Number2 {
+
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: 8px;
+    text-align: left;
+    color: blue;
+}
+
+.Vector1 {
+    margin-top: 34px;
+    margin-left: 49px;
+}
+
+.Vector2 {
+    position: absolute;
+    top: 36px;
+    left: 76px;
+}
+
+.Info {
+    position: absolute;
+    height: 33.99824905395508px;
+    width: 70px;
+    left: 964px;
+    top: 36.000823974609375px;
+    border-radius: 0px;
+
+}
+
+.otganlar {
+    position: absolute;
+    top: 263px;
+    margin-left: 91px;
+}
+
+.AmallarHome {
+    margin-top: 274px;
+    margin-left: 44px;
+}
+
+select {
+    width: 98%;
+    margin-top: 100px;
+    outline: none;
+}
+
+select:hover {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    padding: 7px;
+
+}
+
+.members {
+
+    width: 100vh;
+}
+
+.member {
+    margin-top: 433px;
+    height: 200px;
+    width: 317px;
+    border-radius: 30px;
+    border: 1px solid rgba(211, 224, 255, 1)
+}
+
+.member2 {
+    margin-top: 26px;
+    height: 200px;
+    width: 317px;
+    border-radius: 30px;
+    border: 1px solid rgba(211, 224, 255, 1)
+}
+
+.Nomi {
+
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 23px;
+}
+
+.Numberi {
+    font-size: 55px;
+    margin-top: 9px;
+    margin-left: 55px;
+    font-weight: 500;
+}
+
+.member_icon {
+    width: 18.98px;
+    margin-left: 34px;
+
+}
+
+.Nomi_icon {
+    margin-top: 24px;
+    margin-left: 23px;
+    width: auto;
+}
+
+.Percentage {
+    color: rgba(106, 210, 160, 1);
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.benefit {
+    width: 250px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 23px;
+    margin-left: 37px;
+
+}
+
+.impovement {
+    width: 17.52px;
+}
+
+.Batafsil_div {
+    width: auto;
+
+}
+
+.Batafsil {
+    text-decoration: underline;
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.para {
+    position: absolute;
+    top: 10px;
+
+}
+
+.Info {
+    width: 34px;
+
+    position: absolute
+}
+
+.Statistika {
+    width: auto;
+    position: absolute;
+    top: 284px;
+    margin-left: 57px;
+
+}
+
+.Statistika_name {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Nunito;
+    line-height: 21.08px;
+    margin-left: 24px;
+}
+
+.Amallar {
+    position: absolute;
+    top: 338px;
+    left: 57px;
+}
+
+.Amallar_Name {
+    color: white;
+}
+
+.Ruxsatlar {
+    position: absolute;
+    top: 400px;
+    left: 57px;
+}
+
+.Hisobotlar {
+    position: absolute;
+    top: 463px;
+    left: 57px;
+}
+
+.Call-Markaz {
+    position: absolute;
+    top: 522px;
+    left: 57px;
+}
+
+.Name_id {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 48px;
+    margin-left: 44px;
+}
+
+.Search_id {
+    height: 45px;
+    width: 300px;
+    margin-left: 24px;
+    margin-top: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #EAF0FF;
+    border-radius: 20px;
+
+}
+
+.Add {
+    width: 192px;
+    height: 45px;
+    margin-left: 340px;
+    margin-top: 0px;
+    color: white;
+    background: #325ECD;
+    border-radius: 20px;
+    border: none;
+}
+
+.pablo {
+    position: absolute;
+    bottom: 4px;
+}
+
+.Main_card {
+    width: 100%;
+}
+
+.Big_Card {
+    position: absolute;
+    height: 100%;
+    top: 297px;
+    left: 300px;
+    width: 100%;
+}
+
+.card {
+    height: 60px;
+    width: 827px;
+    margin-top: 20px;
+    margin-left: 24px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+
+
+}
+
+.card_tab {
+    margin-top: 49px;
+    margin-left: 24px;
+}
+
+.tab_id {
+    margin-left: 122px;
+}
+
+.user_tab {
+    margin-left: 122px;
+}
+
+.tab_telefon {
+    margin-left: 175px;
+}
+
+.Jsh {
+    margin-left: 167px;
+}
+
+.tab_qurilma {
+    margin-left: 178px;
+}
+
+.id {
+    position: absolute;
+    height: 19px;
+    width: auto;
+    margin-left: 156px;
+    margin-top: 20px;
+    border-radius: nullpx;
+
+}
+
+.name {
+    position: absolute;
+    height: 20px;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 20px;
+    border-radius: nullpx;
+
+
+}
+
+.telefon {
+    position: absolute;
+    height: 22px;
+    width: auto;
+    margin-left: 482px;
+    margin-top: 20px;
+    border-radius: nullpx;
+
+}
+
+.jshsh {
+    position: absolute;
+    height: 22px;
+    width: auto;
+    margin-left: 640px;
+    margin-top: 20px;
+    border-radius: nullpx;
+}
+
+.qurilma {
+    position: absolute;
+    height: 22px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: nullpx;
+    margin-left: 870px;
+}
+
+.settings {
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 759px;
+}
+
+.bloklash {
+    color: rgba(236, 59, 80, 1);
+}
+
+.blokdan_chiqarish {
+    color: rgba(67, 190, 131, 1);
+}
+
+.tahrirlash {
+    color: rgba(50, 94, 205, 1);
+}
+
+.close {
+    height: 60px;
+    width: 1027px;
+    margin-top: 20px;
+    margin-left: 24px;
+    border-radius: 15px;
+    display: flex;
+    background: red;
+    background: rgba(236, 59, 80, 1);
+}
+
+.cardd {
+    height: 60px;
+    width: 1027px;
+    margin-top: 20px;
+    margin-left: 24px;
+    border-radius: 15px;
+    display: flex;
+    background: red;
+}
+
+.voqt {
+    margin-left: 100px;
+}
+
+.voqqt {
+    position: absolute;
+    top: 20px;
+    right: 95px;
+}
+
+.doc {
+    width: 300px;
+}
+
+.doctor_info {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-right: 300px;
+}

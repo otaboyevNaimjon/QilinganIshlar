@@ -1,0 +1,242 @@
+[
+    {
+        "rasm": "../images/i.webp",
+        "name": "Jean Astruc",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (1).webp",
+        "name": "Robert J. Bentley",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (2).webp",
+        "name": "Mitchel P. Goldman",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (3).webp",
+        "name": "Jeffrey A. Klein",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (4).webp",
+        "name": "Norman Orentreich",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (5).webp",
+        "name": "Stefania Jabłońska",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (6).webp",
+        "name": "William Werschler",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (7).webp",
+        "name": "Lucky Meisenheimer",
+        "lovozimi": "Dermotology"
+    },
+    {
+        "rasm": "../images/i (8).webp",
+        "name": "Morgan Cooper",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (9).webp",
+        "name": "Carel Le Roux",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (10).webp",
+        "name": "Chris Blick",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (11).webp",
+        "name": "Sasindran Ramar",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (12).webp",
+        "name": "Christoph Nienaber",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (13).webp",
+        "name": "Mina Youssef",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (14).webp",
+        "name": "Henry Willmott",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (15).webp",
+        "name": "Thomas Crompton",
+        "lovozimi": "Internal medicine"
+    },
+    {
+        "rasm": "../images/i (16).webp",
+        "name": "Cristina Bordea",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (17).webp",
+        "name": "Cristina Rodriguez",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (18).webp",
+        "name": "Richard Irving",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (19).webp",
+        "name": "Luke Cascarini",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i.webp",
+        "name": "Adam Sierakowski",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (1).webp",
+        "name": "Michael John",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (2).webp",
+        "name": "Simone Giovanni",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (3).webp",
+        "name": "Stephen Black",
+        "lovozimi": "Psycology"
+    },
+    {
+        "rasm": "../images/i (4).webp",
+        "name": "George Farah",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (5).webp",
+        "name": "Shazia Malik",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (6).webp",
+        "name": "Philip Drew",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (7).webp",
+        "name": "Tony Andrade",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (8).webp",
+        "name": "Mr Daniel Phillip",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (9).webp",
+        "name": "Imran Ghanghro",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (10).webp",
+        "name": "Carlo Nunes",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (11).webp",
+        "name": "Ahmed Othman",
+        "lovozimi": "Main medicine"
+    },
+    {
+        "rasm": "../images/i (12).webp",
+        "name": "Katerina Charakida",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (13).webp",
+        "name": "Mark Webb",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (14).webp",
+        "name": "Nick Koutroumanos",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (15).webp",
+        "name": "Anne Mier",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (16).webp",
+        "name": "Dinesh Vegad",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (17).webp",
+        "name": "Anthony Mundy",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (18).webp",
+        "name": "Laurence Maiden",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i (19).webp",
+        "name": "Basky Thilaganathan",
+        "lovozimi": "Dentist"
+    },
+    {
+        "rasm": "../images/i.webp",
+        "name": "Simon Smith",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (1).webp",
+        "name": "Jon Goldin",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (3).webp",
+        "name": "Tony Corner",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (8).webp",
+        "name": "Michael Potter",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (6).webp",
+        "name": "Michael Glynn",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (15).webp",
+        "name": "Dipesh Patel",
+        "lovozimi": "Onteronology"
+    },
+    {
+        "rasm": "../images/i (12).webp",
+        "name":"Federico Tinti",
+        "lovozimi":"Onteronology"
+    },
+    {
+        "rasm": "../images/i (4).webp",
+        "name":"Thomas Hester",
+        "lovozimi":"Onteronology"
+    }
+]
